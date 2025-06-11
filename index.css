@@ -1,0 +1,29 @@
+html{
+    font-size: 8px;
+}
+h1{
+    font-size: 200px;
+    /* rem (16 px) - unidade de medida */
+    font-size: 2rem;
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 4rem;
+}
+#teste{
+    border: solid 5px red;
+    width: 2000px;
+    height: 200px;
+    /* 1vw = 1% da largura da tela */
+    width: 50vw;
+}
+#filho{
+    border: solid 3px blue;
+    width: 300px;
+    height: 300px;
+    /* porcentagem - relação ao elemento pai */
+    width: 50%;
+    height: 50%;
+}
